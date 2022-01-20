@@ -1,0 +1,55 @@
+Validate that Admin users can delete user
+Steps
+1. Login as an Admin
+
+2. select user to be deleted
+
+Expected: Validate that delete option is displayed/available
+
+
+Validate that non admin users cannot delete a user
+Steps
+1. Login with non admin account
+
+2. select user to be deleted
+
+Expected: No option to delete user (No button/link)
+
+
+Validate delete option
+Steps:
+1. Login as admnin user
+
+2. Go to user thet will be deleted
+
+3. click on delete button/link
+
+Expected: User is deleted (banner/confirmation)
+
+Validate delete page/button/link against UI design document
+Steps: 
+1. Login as admin user
+
+2. Go to user to be deleted
+
+Expected: Delete option and page match UI design
+
+Validate delete option API success
+
+
+Validate delete option API failure
+
+
+Validate error message/banner/screen
+
+
+Entry Criteria: 
+- Admin user credentials
+- Non Admin user credentials
+- UI design
+- API details
+
+Exit Criteria:
+- All test cases pass as expected
+- 
+
